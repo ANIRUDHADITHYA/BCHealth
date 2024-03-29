@@ -1,0 +1,99 @@
+.bc-container {
+    height: 600px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+    /* Thicker box-shadow */
+}
+
+.bc_main_container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.bc_assert_wrapper {
+    flex: 1.3;
+    height: 100%;
+}
+
+.bc_assert_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.bc_content_wrapper {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.bc_content_wrapper h1 {
+    padding: 20px 5px;
+    font-size: 24px;
+    color: var(--secondary-color);
+
+}
+
+.bc-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5px;
+}
+
+.bc-input-pair {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bc-input-wrapper input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--secondary-color);
+    height: 35px;
+    font-size: 14px;
+}
+
+.bc-input-wrapper label {
+    color: var(--primary-color);
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.bc-input-wrapper.full-wd {
+    width: 100%;
+}
+
+.bc-input-wrapper.submit button {
+    padding: 10px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.bc-input-wrapper.submit button:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+.bc-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

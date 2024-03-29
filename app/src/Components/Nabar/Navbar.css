@@ -1,0 +1,120 @@
+.home-navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px auto;
+    background-color: #f4f6f8;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.home-nav-logo-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    text-decoration: none;
+}
+
+.home-nav-logo-container h5 {
+    padding-left: 5px;
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.home-nav-logo-container i {
+    padding-left: 15px;
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.home-nav-items-container {
+    display: flex;
+    list-style: none;
+    flex: 1;
+    justify-content: right;
+    align-items: center;
+}
+
+.home-nav-items-container li {
+    padding: 0px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.home-nav-items-container li span {
+    background-color: white;
+    padding: 6px 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 25px;
+    color: var(--primary-color);
+    transition: 0.3s ease-in-out;
+}
+
+.home-nav-items-container li connect {
+    background-color: var(--primary-color);
+    padding: 6px 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 25px;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.home-nav-items-container li span:hover {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: white;
+}
+
+.home-nav-items-container li connect:hover {
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #f4f6f8;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltiptext a,
+.tooltiptext h5 {
+    font-size: 12px;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.tooltiptext a:hover {
+    color: var(--secondary-color);
+}
+
+.tooltiptext h5:hover {
+    color: var(--secondary-color);
+}

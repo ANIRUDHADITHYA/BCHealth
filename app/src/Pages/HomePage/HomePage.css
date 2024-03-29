@@ -1,0 +1,145 @@
+.homepage {
+    width: 100vw;
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
+.homepage-container {
+    display: flex;
+    height: 88vh;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 150px;
+}
+
+.content-container h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+
+.content-container p {
+    font-size: 16px;
+    color: var(--secondary-color);
+    width: 80%;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.connect-wallet-button {
+    background-color: var(--primary-color);
+    padding: 15px 50px;
+    border: 1px solid var(--primary-color);
+    border-radius: 25px;
+    color: white;
+    transition: 0.3s ease-in-out;
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 25px
+}
+
+.connect-wallet-button:hover {
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+visit {
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.homepage-cards {
+    display: flex;
+}
+
+.homepage-card {
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    padding-right: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.homepage-card a {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.2s;
+    text-decoration: none;
+    color: black;
+}
+
+.homepage-card:hover a {
+    color: var(--primary-color);
+}
+
+.doc-img-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+}
+
+.grey-color-circle {
+    width: 500px;
+    height: 500px;
+    background-color: #f4f9ff;
+    border-radius: 50%;
+}
+
+.blue-gey-color-circle {
+    width: 400px;
+    height: 400px;
+    background-color: #c6e2ff;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.blue-color-circle {
+    width: 300px;
+    height: 300px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.doc-img-wrapper {
+    width: 300px;
+}
+
+.doc-img-wrapper img {
+    width: 120%;
+    height: 120%;
+    position: relative;
+    top: -170px;
+    left: 31px;
+}
